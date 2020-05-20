@@ -7,10 +7,10 @@
 //set Microship up
 MCP3208 adc(D8);
 
-#define WIFI_SSID       "Atittan"
-#define WIFI_PASSWORD   "kDywepao"
-#define FIREBASE_HOST "smart-bonsai-f6d63.firebaseio.com"
-#define FIREBASE_AUTH "xiSAEgG6d2oC8vMoW08911mAbm6JOJt9douyAA6G"
+#define WIFI_SSID       "SSID_NAME"
+#define WIFI_PASSWORD   "PASSWORD"
+#define FIREBASE_HOST "ProjectName.firebaseio.com"
+#define FIREBASE_AUTH "AUTH_TOKEN"
 #define water_swicth D1
 
 const int temp_sensor_pin = 0, light_sensor_pin = 3, moisture_sensor_pin = 6;
